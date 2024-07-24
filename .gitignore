@@ -83,3 +83,4 @@ out/
 ### VS Code ###
 .vscode/
 .env.secret
+secret.sql
