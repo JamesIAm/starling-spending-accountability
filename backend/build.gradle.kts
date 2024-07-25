@@ -33,6 +33,8 @@ dependencies {
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	implementation("org.nahajski:base-auth:0.0.4")
 	implementation("com.h2database:h2:2.2.224")
+	implementation("com.fasterxml.jackson.core:jackson-databind:2.17.2")
+
 }
 
 tasks.withType<Test> {
