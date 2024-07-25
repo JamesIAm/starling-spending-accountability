@@ -11,7 +11,7 @@ const App = () => {
         <Login />
         <h1
           onClick={() => {
-            get("/public/user")
+            get("/spending-categories")
           }}
         >
           Test
